@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fikarrfree Trail Co. — Gear for going further</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <span>FREE SHIPPING ON ORDERS OVER $75</span>
+  <span class="topbar-coords">40.7128° N · TRAILHEAD DEPOT</span>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header">
+  <div class="header-inner">
+    <a href="#" class="logo" aria-label="Fernweh Trail Co. home">
+      <svg class="logo-mark" viewBox="0 0 48 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M2 36L15 10L22 24L27 15L46 36H2Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+        <circle cx="35" cy="8" r="4" stroke="currentColor" stroke-width="2.5"/>
+      </svg>
+      <span class="logo-text">FIKARRFREE<em>TRAIL CO.</em></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Product categories">
+      <button class="nav-link active" data-filter="all">All Gear</button>
+      <button class="nav-link" data-filter="packs">Packs</button>
+      <button class="nav-link" data-filter="footwear">Footwear</button>
+      <button class="nav-link" data-filter="apparel">Apparel</button>
+      <button class="nav-link" data-filter="camp">Camp</button>
+    </nav>
+
+    <div class="header-actions">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search the catalog…" aria-label="Search products">
+        <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="6.5" stroke="currentColor" stroke-width="1.6"/><path d="M14 14L18 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </div>
+      <button class="cart-btn" id="cartToggle" aria-label="Open cart">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h2l2.4 12.2a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L21 8H6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="21" r="1.4" fill="currentColor"/><circle cx="18" cy="21" r="1.4" fill="currentColor"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <svg class="contour" viewBox="0 0 1200 500" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M-20 420 Q 150 360 300 400 T 620 380 T 950 420 T 1220 380" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <path d="M-20 460 Q 180 400 340 440 T 660 420 T 980 460 T 1220 420" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <path d="M-20 60 Q 200 10 400 55 T 800 40 T 1220 70" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <path d="M-20 100 Q 220 55 420 95 T 820 80 T 1220 105" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <path d="M-20 140 Q 230 100 440 135 T 840 120 T 1220 145" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  </svg>
+  <div class="hero-inner">
+    <p class="eyebrow">EST. TRAILHEAD MILE 0</p>
+    <h1>GEAR FOR<br>GOING FURTHER</h1>
+    <p class="hero-sub">Field-tested packs, boots and layers, sold direct from a depot that actually uses this stuff. No influencer photoshoots — just gear that holds up past mile twelve.</p>
+    <div class="hero-actions">
+      <a href="#catalog" class="btn btn-primary">Shop the Catalog</a>
+      <a href="#about" class="btn btn-ghost">Why Fikarrfree</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CATALOG ============ -->
+<main>
+  <section class="catalog" id="catalog">
+    <div class="catalog-head">
+      <h2>The Catalog</h2>
+      <p class="catalog-count"><span id="resultCount">0</span> items on the shelf</p>
+    </div>
+    <div class="product-grid" id="productGrid"></div>
+    <p class="empty-state" id="emptyState" hidden>Nothing matches that search. Try a different trail.</p>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-inner">
+      <span class="tag-label">01 / TRAIL TESTED</span>
+      <h3>We only sell what we'd carry ourselves.</h3>
+      <p>Every pack, boot and jacket in this depot spent a season on our own backs before it earned a place on the shelf. If it chafed, leaked, or fell apart at the seams — it didn't make the cut.</p>
+    </div>
+    <div class="about-inner">
+      <span class="tag-label">02 / DIRECT FROM DEPOT</span>
+      <h3>No showroom markup.</h3>
+      <p>We skip the flagship storefronts and ship straight from our trailhead depot, which is the only reason a hardshell this good costs what it does.</p>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-text">FIKARRFREE<em>TRAIL CO.</em></span>
+      <p>Gear for going further. Depot open year-round.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <a href="#">Packs</a>
+      <a href="#">Footwear</a>
+      <a href="#">Apparel</a>
+      <a href="#">Camp Gear</a>
+    </div>
+    <div class="footer-col">
+      <h4>Depot</h4>
+      <a href="#">Shipping &amp; Returns</a>
+      <a href="#">Size Guide</a>
+      <a href="#">Trail Journal</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Fikarrfree Trail Co. — This is a demo storefront built for a coding exercise.</div>
+</footer>
+
+<!-- ============ CART DRAWER ============ -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+  <div class="cart-drawer-head">
+    <h3>Your Pack <span class="cart-drawer-sub">(cart)</span></h3>
+    <button class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <p class="cart-empty" id="cartEmptyMsg">Your pack is empty. Time to gear up.</p>
+  <div class="cart-drawer-foot">
+    <div class="cart-line"><span>Subtotal</span><span id="cartSubtotal">$0.00</span></div>
+    <p class="cart-note">Shipping and taxes calculated at checkout.</p>
+    <button class="btn btn-primary btn-block" id="checkoutBtn">Checkout</button>
+  </div>
+</aside>
+
+<!-- ============ TOAST ============ -->
+<div class="toast" id="toast"></div>
+
+<!-- ============ CHECKOUT MODAL ============ -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <svg class="modal-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2"/><path d="M14 24l7 7 14-14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <h3 id="modalTitle">Order confirmed</h3>
+    <p>This is a demo storefront, so no real order was placed — but if it had been, your gear would be leaving the depot shortly.</p>
+    <button class="btn btn-primary" id="modalDone">Back to the Catalog</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
