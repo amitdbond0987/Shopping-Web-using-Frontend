@@ -124,8 +124,3 @@ This is a demo project built for learning/portfolio purposes. Feel free to fork,
 
 ---
 
-## 🙏 Credits
-
-- Fonts: [Google Fonts](https://fonts.google.com/) — Oswald, Inter, Space Mono
-- Product imagery: emoji glyphs (placeholder — swap in real photography for production use)
-
