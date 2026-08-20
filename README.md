@@ -1,3 +1,13 @@
+## 📸 Website Preview
+
+### Homepage
+
+![Website Homepage](images/website-1.png)
+
+### Website Preview
+
+![Website Preview](images/website-2.png)
+
 # 🏔️ Fikarrfree Trail Co.
 
 **A fully front-end e-commerce demo site built with vanilla HTML, CSS, and JavaScript — no frameworks, no build step, no dependencies.**
