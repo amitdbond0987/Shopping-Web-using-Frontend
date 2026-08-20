@@ -2,11 +2,11 @@
 
 ### Homepage
 
-![Website Homepage](images/website-1.png)
+![Website Homepage](images/Website-1.png)
 
 ### Website Preview
 
-![Website Preview](images/website-2.png)
+![Website Preview](images/Website-2.png)
 
 # 🏔️ Fikarrfree Trail Co.
 
